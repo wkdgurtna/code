@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* 달력 */
+
+.rap {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.date_head {
+  margin-bottom: 10px;
+}
+
+.date_head div {
+  background: #f03d3d;
+  color: #fff;
+  text-align: center;
+}
+
+.date_form {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+}
+
+.date_form div {
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dateSel div {
+  font-weight: bold;
+  color: #333;
+  min-height: 150px;
+  padding: 1rem 1.3rem;
+  border-radius: 10px;
+  border: 1px solid #f7f7f7;
+}
+
+.background {
+  background: #f7f7f7;
+}
